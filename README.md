@@ -24,3 +24,7 @@
 - [X] Incluir uma nova tarefa.
 - [X] Remover uma tarefa.
 - [X] Editar uma tarefa.
+
+## 📺Telas
+
+![ezgif-4-18c1ad7d02](https://user-images.githubusercontent.com/64813850/158489849-f7b814ae-157d-492c-9260-3859197c598c.gif)
