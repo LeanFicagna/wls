@@ -16,7 +16,7 @@
 
 - #### Utilizar a tipagem do TypeScript, principalmente para passar parâmetros entre os componentes (utilizando props), foi um pouco complicado, pois eu não tinha muito sobre essa linguagem.
 - #### A documentação de componente no React era algo totalmente desconhecido por mim, e aprender a descrever os componentes usando o Storybook foi um tanto quanto trabalhoso, principalmente por não haver muito conteúdo sobre o Storybook na internet, mas me ajudou muito.
-- #### As modals também foram uma coisa nova para mim, mas bastante divertidas de construir.
+- #### As modals e o menu de contexto foram coisas que eu não tinha pego para fazer, mas foram bastante divertidas de construir.
 
 ## ⚙Funcionalidades
 
