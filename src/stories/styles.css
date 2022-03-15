@@ -1,0 +1,18 @@
+button {
+    cursor: pointer;
+}
+
+.stories-context-menu {
+    position: absolute;
+    background-color: red;
+    width: 180px;
+}
+
+.lista {
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
