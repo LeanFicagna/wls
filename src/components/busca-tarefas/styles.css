@@ -1,0 +1,31 @@
+.search {
+    background-image: url('../../assets/icons/pesquisa.png');
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    height: 45px;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 10px;
+    padding-left: 40px;
+    font-size: 16px;
+    line-height: 16px;
+    width: 80%;
+    align-self: center;
+    margin-bottom: 90px;
+    min-width: 250px;
+}
+
+.search::placeholder {
+    margin-left: 50px;
+    color: black;
+} 
+
+input:focus{
+    outline: 2px solid #bbb5b5;
+ }
+
+ .icon {
+     position: absolute;
+     top: 12%;
+ }

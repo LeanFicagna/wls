@@ -1,0 +1,55 @@
+.barra-lateral {
+    position: fixed;
+    background-color: #0047FF;
+    height: 100vh;
+    width: 220px;
+    float: left;
+    color: white;
+    
+}
+
+.items-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item {
+    margin: 7px;
+}
+
+.usuario {
+    border-bottom: 1px solid white;
+    padding-bottom: 25px;
+    width: 160px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    line-height: 150%;
+}
+
+.button {
+    background-color: #0047FF;
+    border: none;
+    color: white;
+    width: 144px;
+    border-radius: 10px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.select {
+    background-color: #0039CC;
+}
+
+.usuario svg {
+    margin-right: 10px;
+}
+
+svg {
+    margin-right: 20px;
+}

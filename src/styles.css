@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.tela {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+}
+
+.mobile-menu {
+    position: fixed;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-top: 13px;
+    margin-left: 10px;
+    display: none;
+    cursor: pointer;
+    display: block;
+}
+
+.over {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 4px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+@media (max-width: 740px) {
+
+    .barra-lateral {
+        transform: translateX(-100%);
+    }
+
+    .container { 
+        padding: 0;
+    }
+
+
+    input[type=checkbox]:checked ~ .mobile-menu {
+        transform: translateX(0%);
+    }
+
+    input[type=checkbox]:checked ~ .barra-lateral {
+        transform: translateX(0%);
+    }
+
+    input[type=checkbox]:checked ~ .over {
+        display: block;
+    }
+}

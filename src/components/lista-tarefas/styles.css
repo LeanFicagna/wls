@@ -1,0 +1,97 @@
+.overlay {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.lista {
+    margin: 10px;
+    background-color: #0047FF;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.task-button {
+    padding: 7px;
+    background-color: white;
+    border:  none;
+    border-radius: 5px;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.task-button svg {
+    margin-right: 10px;
+}
+
+.new-task span {
+    margin-right: -10px;
+}
+
+.new-task {
+    border-radius: 10px;
+    width: 85.5%;
+    align-self: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.new-task button {
+    background-color: #0047FF;
+    display: flex;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.title svg {
+    margin: 0;
+}
+
+.setting {
+    background-color: transparent;
+    border: none;
+}
+
+.context-menu {
+    background-color: white;
+    position: absolute;
+    align-self: end;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.context-menu button {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background-color: white;
+    opacity: 0.6;
+    padding-right: 10px;
+}
+
+.context-menu svg {
+    margin-right: 10px;
+}
+
+.context-menu button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
