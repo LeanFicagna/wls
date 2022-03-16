@@ -12,6 +12,8 @@
 
 #### OBS: digite `npm run storybook`ou `yarn run storybook` para ver a documentação dos componentes
 
+#### Link do projeto: https://leanficagna.github.io/wls/
+
 ## ⚔Desafios
 
 - #### Utilizar a tipagem do TypeScript, principalmente para passar parâmetros entre os componentes (utilizando props), foi um pouco complicado, pois eu não tinha muito conhecimento sobre essa linguagem.
