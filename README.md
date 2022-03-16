@@ -8,7 +8,7 @@
 
 #### 3. Baixe as dependências necessárias usando o comando `npm install` ou `yarn install` conforme seu gerênciador de pacotes
 
-#### 4. Execute o projeto utilizando: `npm start` ou `yarn`
+#### 4. Execute o projeto utilizando: `npm start` ou `yarn start`
 
 #### OBS: digite `npm run storybook`ou `yarn run storybook` para ver a documentação dos componentes
 
